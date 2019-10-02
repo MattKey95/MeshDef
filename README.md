@@ -1,3 +1,3 @@
 # MeshDef
 
-Unity version: 2019.3.0.a2
+Unity version: 2019.3.0a2
