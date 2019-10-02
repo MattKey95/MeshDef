@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MeshDeformer : MonoBehaviour
 {
@@ -84,6 +81,7 @@ public class MeshDeformer : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        return; //take this out if you want to see map vertices. KILLS FPS!
         if (map.fullMap == null)
             return;
 
